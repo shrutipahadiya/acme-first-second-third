@@ -72,3 +72,50 @@ label{
       font-weight: bold;
       font-size: 30px;
   }
+
+
+
+  .selectedli {
+    background-color: tomato;
+    border: 1px solid tomato;
+    /*color: black;
+    padding: 15px ;
+    text-align: left;
+    text-decoration: none;
+   /* display: inline-block;*/
+    /*font-size: 16px;
+    margin:5px 1px 1px 1px ;
+    cursor: pointer;
+    width: 40%;
+    height:1rem;*/
+    
+   /* list-style-type: none;*/
+  }
+
+  .unselectedli{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: black;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+   /* display: inline-block;*/
+    font-size: 16px;
+    margin:5px 12px 0px 12px ;
+    cursor: pointer;
+    width: 200px;
+    height: 50px; 
+   /* list-style-type: none;*/
+  }
+
+  li{
+    list-style-type: none;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 2px;
+    height: 5%;
+    width: 89%;
+    padding: 10px 0 20px 10px;
+
+  }
+
